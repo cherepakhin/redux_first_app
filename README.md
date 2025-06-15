@@ -1,7 +1,7 @@
 
 https://web-dev.guru/reactjs/redux-srednij-uroven-ispolzovanie-redux-toolkit/
 
-![screen](doc/screen.png)
+![screen1](doc/screen1.png)
 
 # Getting Started with Create React App
 

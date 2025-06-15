@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { Form, ListGroup } from "react-bootstrap";
-import { toggleTask, removeTask }  from "../store/actions";
+import { toggleTask, removeTask }  from "../store/actions_task";
 
 // Вызывается в TaskList.js так:
 // tasks.map(task => <Task ... task={task} />

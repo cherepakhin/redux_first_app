@@ -1,4 +1,4 @@
-import * as actions from './actionTypes';
+import * as actions from './action_types';
 
 let lastId = 0;
 // reduser.js использован в store.js

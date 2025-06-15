@@ -24,10 +24,10 @@ import { toggleTask, removeTask }  from "../store/actions_task";
         type="checkbox"
         label={id + '. ' + title}
         checked={completed}
-        onChange={ () => dispatch(toggleTask(id)) } // отправка action toggleTask в reducer.js
+        onChange={ () => dispatch(toggleTask(id)) }
       />
       <div className="list-group-item-actions">
-        <span onClick={() => dispatch(removeTask(id))}>Удалить</span> // отправка action removeTask в reducer.js
+        <span onClick={() => dispatch(removeTask(id))}>Удалить</span>
       </div>
     </ListGroup.Item>
   )

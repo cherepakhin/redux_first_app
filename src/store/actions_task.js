@@ -7,10 +7,10 @@ export const addTask = task => ({
 
 export const toggleTask = id => ({
   type: actions.TASK_TOGGLE,
-  payload: { id } // см. ниже комментарий
+  payload: { id } // см. ниже комментарий (вариант1)
 });
 
 export const removeTask = id => ({
   type: actions.TASK_REMOVE,
-  payload: { id: id } // можно так иили короче: "payload: { id }"
+  payload: { id: id } // можно так (вариант2) или короче: "payload: { id }", как в (вариант1)
 })

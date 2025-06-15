@@ -7,6 +7,8 @@ import './App.css';
 
 function App() {
 
+// state - ЗДЕСЬ это МАССИВ объектов задач.
+// где "{task}" это {id:001001, title: '...', completed: false}, ...]
   const tasks = useSelector(state => state);
 
   return (
